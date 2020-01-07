@@ -17,7 +17,6 @@ export class SearchFieldComponent implements OnInit {
     }
     queryText(event) {
         event.preventDefault();
-        console.log(this.query);
         this.searchText.emit(this.query);
     }
 }
