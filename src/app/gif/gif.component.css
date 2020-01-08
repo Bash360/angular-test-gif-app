@@ -1,0 +1,22 @@
+.gif {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+}
+
+.gif>img {
+  width: 80%;
+}
+
+.gif>h4, a {
+  align-self: flex-start;
+  margin-left: 120px;
+}
+
+@media screen and (max-width: 480px) {
+  .gif>h4, a {
+    align-self: flex-start;
+    margin-left: 70px;
+  }
+}
