@@ -8,6 +8,7 @@ import { SearchFieldComponent } from './search-field/search-field.component';
 import { ResultsListComponent } from './results-list/results-list.component';
 import { GifCardComponent } from './gif-card/gif-card.component';
 import { GifComponent } from './gif/gif.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { GifComponent } from './gif/gif.component';
     SearchFieldComponent,
     ResultsListComponent,
     GifCardComponent,
-    GifComponent
+    GifComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
