@@ -1,3 +1,6 @@
-<p>
-  gif works!
-</p>
+<div class="gif">
+  <img [src]="gif.images.original_still.url" alt="gif" />
+  <h4>Title: {{gif.title}}</h4>
+  <h4>Type: {{gif.type}}</h4>
+  <a [href]="gif.source">source</a>
+</div>
