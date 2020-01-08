@@ -7,9 +7,9 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
     styleUrls: ['./search-field.component.css']
 })
 export class SearchFieldComponent implements OnInit {
-    name = 'Search Field';
-    query;
-    @Output() searchText = new EventEmitter();
+    name: string = 'Search Field';
+    query: string;
+    @Output() searchText: EventEmitter<string> = new EventEmitter();
     constructor() {
     }
 
