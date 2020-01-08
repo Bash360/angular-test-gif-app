@@ -24,4 +24,8 @@ export class GifService {
     );
 
   }
+  getGifById(id: string): Observable<any> { 
+    this.url = `https://api.giphy.com/v1/gifs/${id}?api_key=G62Z8yE5XezI46BaSodbhu730Uf7AL1u`;
+    return this.httpClient.get(this.url, httpOptions);
+  }
 }
