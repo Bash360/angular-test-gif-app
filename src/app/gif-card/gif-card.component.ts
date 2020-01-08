@@ -9,6 +9,7 @@ export class GifCardComponent implements OnInit {
   @Input() title: string;
   @Input() imageUrl: string;
   @Input() id: string;
+  @Input() source: string;
   constructor() { }
 
   ngOnInit() {

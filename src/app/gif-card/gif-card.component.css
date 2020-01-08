@@ -18,3 +18,7 @@
   overflow:hidden;
   text-overflow: ellipsis;
 }
+.gif:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
