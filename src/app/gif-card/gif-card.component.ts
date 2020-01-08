@@ -8,6 +8,7 @@ import { Component, OnInit,Input } from '@angular/core';
 export class GifCardComponent implements OnInit {
   @Input() title: string;
   @Input() imageUrl: string;
+  @Input() id: string;
   constructor() { }
 
   ngOnInit() {
