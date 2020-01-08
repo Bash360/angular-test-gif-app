@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { SearchFieldComponent } from './search-field/search-field.component';
 import { ResultsListComponent } from './results-list/results-list.component';
 import { GifCardComponent } from './gif-card/gif-card.component';
+import { GifComponent } from './gif/gif.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SearchFieldComponent,
     ResultsListComponent,
-    GifCardComponent
+    GifCardComponent,
+    GifComponent
   ],
   imports: [
     BrowserModule,
